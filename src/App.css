@@ -1,0 +1,44 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(140deg, rgb(237, 192, 141),rgb(98, 98, 219));
+}
+
+.party-containers {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 80px;
+}
+
+.party-container {
+  border: 3px solid #160658;
+  padding: 10px;
+  width: 30%;
+}
+
+.party-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.party-container li {
+  cursor: pointer;
+  padding: 5px;
+  margin:5px 0 15px 15px;
+  background-color: #f8eaed;
+  width: 50%;
+  align-items: center;
+  
+}
+
+.party-container li:hover {
+  background-color: #4dee65;
+}
+
+.votes {
+  margin: 20px 0;
+}
